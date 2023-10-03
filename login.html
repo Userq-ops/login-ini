@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        font-family: Verdana;
+      }
+                @media (max-width: 600px) {
+            a {
+                font-size: 14px;
+                color: red;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            a {
+                font-size: 20px;
+                color: blue;
+            }
+        }
+
+        .back {
+            background-image: url(https://foni.club/uploads/posts/2023-01/1674337566_foni-club-p-fon-4k-na-rabochii-stol-kompyutera-1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.line {
+    border-bottom: black solid 2px;
+}
+
+.input-field {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  opacity: 1;
+  font-size: 16px;
+  background: transparent;
+  outline: none;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff;
+  transition: 0.3s;
+  color: black;
+}
+
+.linew {
+    width: 200px;
+    margin-bottom: 10px;
+}
+.op-head {
+    background-color: rgba(255, 255, 255, 0.5);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(20px);
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    margin: 20%;
+    margin-top: 15%;
+}
+img {
+    width: 30%;
+    position: relative;
+    z-index: 10;
+    
+}
+.submit {
+    background-color: green;
+    border: 2px;
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+    width: 150px;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0, 0.5);
+}
+    </style>
+</head>
+<body class="back">
+    <div>
+        <center>
+        <header class="op-head">
+            <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-128x128.png?rev=2540745" alt="">
+            <h2>LOGIN WINDOW</h2>
+            <form>
+                <div class="form-group">
+                  <input type="form" id="username" name="username" class="input-field" placeholder="Yor Email Address">
+                  <hr class="linew">
+                </div>
+                <div class="form-group">
+                  <input type="password" id="password" name="password" class="input-field" placeholder="Your Password">
+                  <hr class="linew">
+                </div>
+                <input type="checkbox">Agree With Terms & Condition
+                <br>
+                <br>
+                <button class="submit" type="submit">Login</button>
+                <br>
+                </form>
+        </header>
+    </center>
+    </div>
+</body>
+</html>
